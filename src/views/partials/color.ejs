@@ -1,0 +1,14 @@
+<% if (user.color === 'blue') { %>
+    <body class="blue_body">
+    <% } else if (user.color === 'purple'){ %>
+        <body class="purple_body">
+        <% } else if (user.color === 'aqua') { %>
+            <body class="aqua_body">
+            <% } else {%>
+                <body class="">
+                <% } %>
+                <h2>
+                    Hola <%= user.name  %>  , elegiste el color: <%= user.color %>  , tu email es:
+                            <%= user.email %> 
+                </h2>
+        

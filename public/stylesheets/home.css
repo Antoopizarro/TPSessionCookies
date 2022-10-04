@@ -1,0 +1,22 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+  
+a {
+    color: #00B7FF;
+}
+/* REGISTER */
+.form_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+.div_button{
+    width: 50%;
+}
+.div_button input{
+    background-color: #B8FCB6;
+    border-radius: 5px; 
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('partials/head') %> 
+</head>
+<body class="body_register">
+  <form class="form_body" action="/" method="POST">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="name">
+    <% if (locals.errors && errors.name) { %>
+      <small style="color: red">
+        <%= errors.name.msg %>
+      </small>
+      <% } %>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <% if (locals.errors && errors.email) { %>
+          <small style="color: red">
+            <%= errors.email.msg %>
+          </small>
+          <% } %>
+            <label for="">Color</label>
+            <select name="color" id="color">
+              <option value="Ninguno" hidden selected>Seleccione una opcion</option>
+              <option value="azul">azul</option>
+              <option value="violeta">violeta</option>
+              <option value="aqua">aqua</option>
+            </select>
+            <div class="body_checkbox">
+              <input type="checkbox" id="saveColor" name="saveColor">
+              <label for="saveColor">Recordar Color</label>
+            </div>
+            <div class="div_button">
+            <input class="boton_registro" type="submit" value="Registrarse">
+            </div>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+[
+   {
+      "id": 1,
+      "nombre": "anto",
+      "email": "antonella_pizarro@yahoo.com.ar",
+      "color": "aqua",
+      "saveColor": "on"
+   },
+   {
+      "id": 2,
+      "nombre": "Antonella",
+      "email": "antonella_pizarro@gmail.com.ar",
+      "color": "violeta",
+      "saveColor": "on"
+   },
+   {
+      "id": 3,
+      "nombre": "aa",
+      "email": "ale@gmail.com",
+      "color": "violeta",
+      "saveColor": "on"
+   },
+   {
+      "id": 4,
+      "nombre": "nnn",
+      "email": "ale.j@gmail.com.ar",
+      "color": "violeta",
+      "saveColor": "on"
+   },
+   {
+      "id": 5,
+      "nombre": "juli",
+      "email": "julianeduardoaquino@gmail.com",
+      "color": "violeta",
+      "saveColor": "on"
+   }
+]
