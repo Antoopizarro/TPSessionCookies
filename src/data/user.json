@@ -33,5 +33,12 @@
       "email": "julianeduardoaquino@gmail.com",
       "color": "violeta",
       "saveColor": "on"
+   },
+   {
+      "id": 6,
+      "nombre": "julian",
+      "email": "julianeduardoaquinoo@gmail.com",
+      "color": "aqua",
+      "saveColor": "on"
    }
 ]
