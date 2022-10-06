@@ -47,5 +47,12 @@
       "email": "aleeee@gmail.com",
       "color": "violeta",
       "saveColor": "on"
+   },
+   {
+      "id": 8,
+      "nombre": "mili",
+      "email": "mili@gmail.com",
+      "color": "violeta",
+      "saveColor": "on"
    }
 ]
