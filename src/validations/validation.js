@@ -24,12 +24,4 @@ module.exports = [
             }
         }).withMessage('El email ya se encuentra registrado'),
     
-    check('age')
-        .custom((value,{req})=> {
-            if (value<1){
-                return false
-            } else {
-                return true
-            }
-        }).withMessage('La edad debe ser mayor a 1'),
   ]

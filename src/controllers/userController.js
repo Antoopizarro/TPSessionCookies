@@ -12,6 +12,8 @@ module.exports = {
         return res.redirect('/')
     },
     logout : (req, res) => {
-        res.render('logout')
+        res.render('logout',{
+            name
+        })
     }
 }
