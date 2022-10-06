@@ -54,5 +54,40 @@
       "email": "mili@gmail.com",
       "color": "violeta",
       "saveColor": "on"
+   },
+   {
+      "id": 9,
+      "nombre": "nnn",
+      "email": "nnn@gmail.com",
+      "color": "aqua",
+      "saveColor": "on"
+   },
+   {
+      "id": 10,
+      "nombre": "mmm",
+      "email": "mmm@gmail.com",
+      "color": "violeta",
+      "saveColor": "on"
+   },
+   {
+      "id": 11,
+      "nombre": "ale",
+      "email": "aleale@gmail.com",
+      "color": "aqua",
+      "saveColor": "on"
+   },
+   {
+      "id": 12,
+      "nombre": "anto",
+      "email": "antonellapizarro@gmail.com.ar",
+      "color": "azul",
+      "saveColor": "on"
+   },
+   {
+      "id": 13,
+      "nombre": "anto",
+      "email": "antonella@gmail.com.ar",
+      "color": "blue",
+      "saveColor": "on"
    }
 ]
